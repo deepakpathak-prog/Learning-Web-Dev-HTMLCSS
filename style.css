@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+
+#container {
+    width: 800px;
+    margin: auto;
+    padding: 0;
+    background-color: #ebebeb;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: lightblue;
+    font-family: cursive;
+}
+#logo{
+    width: 25%;
+    height: 100%;
+    background-color: chocolate;
+    float: left;
+}
+#logo img {
+    width: 80px;
+    margin-top: 10px;
+    margin-left: 50px;
+    border: 1px solid black;
+    border-radius: 100px;
+    
+}
+#slogan {
+    width: 75%;
+    height: 100%;
+    background-color: green;
+    float: right;
+    
+    
+}
+#slogan h1{
+    text-align: center;
+    margin-top: 25px;
+    color: whitesmoke
+}
+#slogan img{
+    width: 100%;
+    height: 100%;
+}
+#slogan p{
+    margin: 0 0 0 10px;
+    height: 100%;
+    width: 100%;
+}
+
+.navigation {
+    width: 100%;
+    height: 50px;
+    background-color:black;
+}
+.navigation ul{
+    list-style: none;
+    margin: 0;
+    /* padding: 12.5px; */
+    padding-top: 5px;
+}
+.navigation ul li {
+    float: left;
+    /* border: 1px solid whitesmoke; */
+    
+}
+.navigation ul li a{
+    text-decoration: none;
+    /* turning to block then only padding can be applied */
+    display: block;
+    width: 80px;
+    padding: 10px 12px 10px 12px;
+    background-color: black;
+    color: whitesmoke;
+}
+.navigation ul li a:hover {
+    background-color: yellow;
+    color: red;
+    border-radius: 5px;
+    
+}
+.navigation .active{
+    background-color: yellow;
+    color: red;
+}
+
+.content {
+    width: 80%;
+    height: 320px;
+    background-color: blueviolet;
+    /* float content to left */
+    float: left;
+}
+.contentStuff {
+    padding: 0;
+    margin: 0;
+    width: 95%;
+    height: 95%;
+    margin: 8px 3px 3px 15px;
+    background-color: violet;
+}
+.contentStuff h1, .contentStuff p{
+    margin: 0;
+}
+.contentStuff img{
+    width: 200px;
+    margin: 10px 0 0 180px;
+    
+}
+.contentStuff form {
+    font-size: 10px;
+}
+.sidebar {
+    width: 20%;
+    height: 320px;
+    background-color: blue;
+    /* float sidebar to right */
+    float: right;
+}
+.sidebar h2, .sidebar p{
+    padding: 0;
+    margin: 0;
+    color: white;
+    padding-left: 5px;
+}
+.sidebar h2 {
+    text-decoration: underline;
+}
+
+.sidebar ul li a{
+    color: white;
+    text-decoration: none;
+}
+.sidebar ul li a:hover {
+    background-color: yellowgreen;
+    color: black;
+}
+.sidebar a img {
+    width: 80px;
+    margin: 0 0 0 28px;
+}
+.footer {
+    width: 100%;
+    height: 30px;
+    background-color: cadetblue;
+    /* how the footer is going missing and what is clear:both doing */
+    clear: both;
+}
+.footer p{
+    color: whitesmoke;
+    text-align: center;
+}
+input,textarea {
+    color: blue;
+    font-size: 10px;
+    border-radius: 10px;
+    border-style: none;
+}
+input[type=submit] {
+    background-color: black;
+    color: red;
+    width: 30%;
+    border: 1px solid yellow;
+    border-radius: 10px;
+}
+table {
+    border: 1px solid black;
+    background-color: gray;
+    width: 100%;
+}
+table th, td{
+    border: 1px solid black;
+    color: red;
+    background-color: black;
+    text-align: center;
+ }
+th {
+    font-size: 20px;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Deepak</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- creating a container -->
+    <div id="container">
+        <!-- header containing main heading or intro-->
+        <div class="header">
+            <!-- adding logo -->
+            <div id="logo">
+                <a href="index.html"><img src="profile-pic.png" alt="profile-pic"></a>
+            </div>
+            <!-- adding slogan -->
+            <div id="slogan">
+                <h1>DEEPAK PATHAK</h1>
+            </div>
+        </div>
+        
+        <!-- navigation containing HOME, ABOUT, CONTACT-->
+        <div class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#" class="active">Contact</a></li>
+                <li><a href="help.html">Help</a></li>
+            </ul>
+        </div>
+        <!-- content -->
+        <div class="content">
+            <div class="contentStuff">
+                <h1>Contact Us:</h1>
+                <form action="">
+                    Name <input type="text" name="name" required><br><br>
+                    <input type="radio" name="Gender" value="Male">Male<br>
+                    <input type="radio" name="Gender" value="Female">Female<br>
+                    Email <input type="email" name="emailId" required placeholder="enter a valid email address"><br><br>
+                    Phone <input type="number" name="phoneNumber" required min="10"><br><br>
+                    Choose your services: <br>
+                    <input type="checkbox" name="service" value="webDesgin">webDesgin 
+                    <input type="checkbox" name="service" value="graphicDesgin">graphicDesgin <input type="checkbox" name="service" value="logoDesgin">logoDesgin <br><br>
+                    Message <textarea name="message" rows="2" cols="30"></textarea><br>
+                    Upload a file <input type="file" name="file" required><br><br>
+                    <input type="submit">
+                </form>
+            </div>
+        </div>
+        <!-- sidebar -->
+        <div class="sidebar">
+            <div>
+                <h2>Need Help:</h2>
+                <ul type="none">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Terms and Conditions</a></li>
+                    <li><a href="#">Social</a></li>
+                </ul>
+            </div>
+            <br><br>
+            <h2>Our Instagram:</h2>
+            <a href="#"><img src="instagram.png" alt="insta"></a>
+        </div>
+        <!-- Footer -->
+        <div class="footer">
+            <p>Website Desgined by <em>Deepak Pathak</em></p>
+        </div>
+    </div>
+</body>
+</html>
